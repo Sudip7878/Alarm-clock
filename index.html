@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			background-color: aquamarine;
+		}
+
+		#set{
+			background-color: coral;
+			cursor: grab;
+			margin-top: 22px;
+		}
+		#set:hover{
+			padding: 2px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Alram Clock</h1>
+	<form>
+		<label for="time">Set Time</label>
+		<input type="time" id="time"></input><br>
+
+		<input type="submit" value="Set Alarm" id="set">
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
